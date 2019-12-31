@@ -111,8 +111,8 @@ FLAGS_LTO=""
 
 LD_PRELOAD=""
 
-COMPILE_POCKETMINE_CHUNKUTILS="no"
-COMPILE_GD="no"
+COMPILE_POCKETMINE_CHUNKUTILS="yes"
+COMPILE_GD="yes"
 
 while getopts "::t:oj:srdlxzff:ugnv" OPTION; do
 
